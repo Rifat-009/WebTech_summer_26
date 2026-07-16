@@ -12,7 +12,7 @@ This repository contains my Web Technologies laboratory tasks and projects compl
 - Web Page Layouts
 - Interactive JavaScript Tasks
 - Lab Assignments
-- Final Lab Project
+- Midterm Lab Project
 
 ## About
 This repository demonstrates the practical implementation of front-end web development concepts learned throughout the Web Technologies course.
