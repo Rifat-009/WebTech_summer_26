@@ -16,5 +16,6 @@ This repository contains my Web Technologies laboratory tasks and projects compl
 
 ## About
 This repository demonstrates the practical implementation of front-end web development concepts learned throughout the Web Technologies course.
+
 Supervised By- Mubassar-ul-ishraq Tamim
 LECTURER, DEPARTMENT OF COMPUTER SCIENCE,AIUB
