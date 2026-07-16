@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyLife Medical Center</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Patient Appointment Registration</h2>
+<p>HealthyLIfe Medical Center</p>
+
+<form id="myForm">
+
+<fieldset>
+    <legend>Personal Information</legend>
+
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+    <small id="firstNameError" class="error"></small>
+
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+    <small id="lastNameError" class="error"></small>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address">
+    <small id="emailError" class="error"></small>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter correct password">
+    <small id="passwordError" class="error"></small>
+
+    <fieldset>
+        <legend>Gender</legend>
+        <div class="radio-group">
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+            <label><input type="radio" name="gender" value="Other"> Other</label>
+        </div>
+        <small id="genderError" class="error"></small>
+    </fieldset>
+</fieldset>
+
+<fieldset>
+    <legend>Appointment Details</legend>
+
+    <label for="department">Doctor's Department</label>
+    <select id="department" name="department">
+        <option value="">Select Department</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Neurology">Neurology</option>
+        <option value="Orthopedics">Orthopedics</option>
+        <option value="Dermatology">Dermatology</option>
+        
+    </select>
+    <small id="departmentError" class="error"></small>
+
+    <fieldset>
+        <legend>Preferred Service</legend>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="service" value="General Checkup"> General Checkup</label>
+            <label><input type="checkbox" name="service" value="Blood Test"> Blood Test</label>
+            <label><input type="checkbox" name="service" value="X-Ray"> X-Ray</label>
+            <label><input type="checkbox" name="service" value="Emergency Care"> Emergency Care</label>
+        </div>
+        <small id="serviceError" class="error"></small>
+    </fieldset>
+</fieldset>
+
+<fieldset>
+    <legend>Health Information</legend>
+
+    <label for="description">Health Description</label>
+    <textarea id="description" name="description" rows="4" placeholder="Describe your symptoms or medical concerns"></textarea>
+    <small id="descriptionError" class="error"></small>
+</fieldset>
+
+<button type="submit">Register Appointment</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
